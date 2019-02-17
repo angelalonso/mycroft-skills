@@ -28,4 +28,4 @@ class KindergartenSkill(MycroftSkill):
         self.speak_dialog("hello.world")
 
 def create_skill():
-    return TemplateSkill()
+    return KindergartenSkill()
